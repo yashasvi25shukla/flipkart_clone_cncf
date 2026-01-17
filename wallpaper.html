@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallpaper Store - Explore Stunning Wallpapers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            margin: 0 10px;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            background-color: #28a745;
+            border-radius: 5px;
+        }
+        .hero {
+            background-image: url('hero-wallpaper.jpg'); /* Replace with your wallpaper image */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+            margin-top: 10px;
+        }
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.category-links {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.category-links a {
+    background-color: #444;
+    color: white;
+    padding: 15px 25px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.category-links a:hover {
+            background-color: #28a745;
+        }
+
+        .wallpapers-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .wallpaper-card {
+            width: 30%;
+            margin-bottom: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .wallpaper-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .wallpaper-card .caption {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .wallpaper-card h3 {
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .wallpaper-card p {
+            color: #e74c3c;
+            font-size: 1.2em;
+        }
+        .download-button {
+            background-color: #28a745;
+            color: white;
+            padding: 12px 20px;
+            font-size: 1.2em;
+            border: none;
+            cursor: pointer;
+            margin-top: 15px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .download-button:hover {
+            background-color: #218838;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Wallpaper Store</h1>
+        <p>Explore High-Quality Wallpapers for Your Device</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Categories</a>
+        <a href="#">Top Wallpapers</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Stunning Wallpapers for Every Screen</h1>
+        <p>Browse through our collection of beautiful and high-resolution wallpapers.</p>
+    </div>
+
+    <!-- Featured Categories Section -->
+    <div class="container">
+        <h2>Browse by Category</h2>
+        <div class="category-links">
+            <a href="#">Nature</a>
+            <a href="#">Abstract</a>
+            <a href="#">Cityscapes</a>
+            <a href="#">Space</a>
+            <a href="#">Animals</a>
+        </div>
+    </div>
+
+    <!-- Featured Wallpapers Section -->
+    <div class="container">
+        <h2>Featured Wallpapers</h2>
+        <div class="wallpapers-grid">
+            <div class="wallpaper-card">
+                <img src="wallpaper1.jpg" alt="Nature Wallpaper">
+                <div class="caption">
+                    <h3>Nature Bliss</h3>
+                    <p>High-Resolution Nature Wallpaper</p>
+                    <a href="#" class="download-button">Download</a>
+                </div>
+            </div>
+            <div class="wallpaper-card">
+                <img src="wallpaper2.jpg" alt="Abstract Wallpaper">
+                <div class="caption">
+                    <h3>Abstract Art</h3>
+                    <p>Colorful Abstract Wallpaper</p>
+                    <a href="#" class="download-button">Download</a>
+                </div>
+            </div>
+            <div class="wallpaper-card">
+                <img src="wallpaper3.jpg" alt="Cityscape Wallpaper">
+                <div class="caption">
+                    <h3>City Lights</h3>
+                    <p>Beautiful Cityscape Wallpaper</p>
+                    <a href="#" class="download-button">Download</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Wallpaper Store. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
